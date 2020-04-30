@@ -1,0 +1,5 @@
+if(COMMAND ntop_import_@NAME@)
+  ntop_import_@NAME@()
+else()
+  ntop_import_default(@NAME@)
+endif()
